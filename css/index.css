@@ -1,12 +1,17 @@
 body{
-background-image: url("http://i.stack.imgur.com/1Tzky.png");
+background-image: url("http://www.pageresource.com/wallpapers/wallpaper/texture-metallic-black-silver-pattern_935158.jpg");
 background-size: 1700px;
 background-repeat: no-repeat;
 background-position: relative;
-color: gray;
+color: #4B4646;
 }
+
 h1 {
   text-align: center;
+}
+h3 {
+  text-align: center;
+  color: ghostwhite;
 }
 
 /* Important styles */
@@ -108,19 +113,93 @@ li a:focus {
   text-align: left
 }
 .aboutme{
-   display:none;
+
+  content: "";
+  background-image: url(http://i.stack.imgur.com/1Tzky.png);
+  size: 200px 100px;
+  opacity: 0.9;
+  display: none;
+  z-index: 9;
+   margin-top: 60px;
+  margin-right: 200px;
+  margin-left: 200px;
+/*  background-image: url("http://i.stack.imgur.com/1Tzky.png");
+  color: rgb(81, 80, 80);
+
+  display:none;
+  margin-top: 60px;
+  margin-right: 200px;
+  margin-left: 200px;*/
+}
+.body{
+  opacity: 2.5;
+
 }
 .image{
   margin-left: 690px;
   margin-top: 90px;;
 }
 .instruct{
-  
-  display: none;
+  color: ghostwhite;
 }
-.image:hover + .instruct{
-display: block;
+/*.image:hover + .instruct{
+display: none;
+}*/
+
+@media (max-width: 767px) {
+  head{
+
+  }
+  body{
+    background-position: relative;
+    width: 100%;
+  }
+  #toggle {
+  display: block;
+  padding-left: 199px;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+  }
+  #menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin-left: 150px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0; 
+  transition: opacity .4s;
 }
+
+  .image{
+  margin-left: 120px;
+  margin-top: 30px;;
+  }
+  .aboutme{
+  background-image: url("http://i.stack.imgur.com/1Tzky.png");
+  font-size: 16px;
+  display:none;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-left: 25px;
+  }
+
+
+
+}
+/*media query for galaxy tab ipad 1-4 & mini, blackberry playbook*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  body{
+    position: relative;
+    width: 100%;
+
+
 /*nav {
   background: yellow;
   display: inline-table;

@@ -30,12 +30,14 @@
 <h1>My Landing Page</h1>
 
 <img class="image" src="images/testing.jpg"><!-- class="image" -->
-<p class="instruct">click picture to reveal about me</p>
+<h3 class="instruct">click picture to reveal about me</h3>
 <div class="aboutme"><!-- class="aboutme" -->
+  <div class="body">
+<h2>About Me</h2>
 <p>This is my landing page This is my landing pageThis is my landing pageThis is my landing pageThis is my landing page
 This is my landing pageThis is my landing pageThis is my landing pageThis is my landing pageThis is my landing page</p>
 </div>
-
+</div>
 <script>
 //this is for collapsible menu
 var theToggle = document.getElementById('toggle');
@@ -93,7 +95,13 @@ pic.addEventListener("click", showText, false);
 
 
 //hide attempt for bio info
+function hideText() {
+  var instruction = document.querySelector(".instruct");
+  instruction.style["display"] = "block";
+}
 
+var instr = document.querySelector(".image");
+instr.addEventListener("click", showText, true);
 
 
 </script>
