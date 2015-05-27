@@ -107,39 +107,7 @@ li a:focus {
   font-size: 20px;
   text-align: left
 }
-.aboutme{
-   display:none;
+.email {
+  margin-top: 100px;
+  margin-left: 80px;
 }
-.image{
-  margin-left: 690px;
-  margin-top: 90px;;
-}
-.instruct{
-  
-  display: none;
-}
-.image:hover + .instruct{
-display: block;
-}
-/*nav {
-  background: yellow;
-  display: inline-table;
-  
-}
-.menuitems{
-  display: none;
-}
-nav .menu:hover> ul li {
-display: block;
-}
-.menu{
- background: navy;
-}
-.menu:hover {
-  display: block;
-}
-.aboutme{
-  margin-top: 377px;
-  text-align: center;
-}
-*/
