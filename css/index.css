@@ -5,19 +5,28 @@ background-repeat: no-repeat;
 background-position: relative;
 color: #4B4646;
 }
-
-h1 {
+.website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-right: 73px;
+  margin-left: 73px;
+  opacity: 0.9;
+}
+.title {
   text-align: center;
+  opacity: 1.0;
+  color: ghostwhite;
 }
 h3 {
   text-align: center;
-  color: ghostwhite;
+  color: black;
 }
 
 /* Important styles */
 #toggle {
   display: block;
-  padding-left: 1199px;
+  padding-left: 1077px;
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
@@ -69,7 +78,7 @@ h3 {
   color: #999;
   width: 200px;
   padding: 10px;
-  margin-left: 1199px;
+  margin-left: 970px;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
@@ -103,7 +112,7 @@ li a {
 }
 li a:hover,
 li a:focus {
-  background: #1ABC9C;
+  background: gray;
   color: #fff;
 }
 
@@ -112,31 +121,19 @@ li a:focus {
   font-size: 20px;
   text-align: left
 }
+section{
+  padding-bottom: 40px;
+}
 .aboutme{
-
-  content: "";
-  background-image: url(http://i.stack.imgur.com/1Tzky.png);
-  size: 200px 100px;
-  opacity: 0.9;
-  display: none;
-  z-index: 9;
-   margin-top: 60px;
-  margin-right: 200px;
-  margin-left: 200px;
-/*  background-image: url("http://i.stack.imgur.com/1Tzky.png");
-  color: rgb(81, 80, 80);
-
   display:none;
   margin-top: 60px;
   margin-right: 200px;
-  margin-left: 200px;*/
-}
-.body{
-  opacity: 2.5;
-
+  margin-left: 200px;
+  background-color: silver;
+  opacity: 0.8;
 }
 .image{
-  margin-left: 690px;
+  margin-left: 614px;
   margin-top: 90px;;
 }
 .instruct{
@@ -166,7 +163,7 @@ display: none;
   color: #999;
   width: 200px;
   padding: 10px;
-  margin-left: 150px;
+  margin-left: 104px;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
@@ -181,9 +178,16 @@ display: none;
   margin-left: 120px;
   margin-top: 30px;;
   }
+ .website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
   .aboutme{
-  background-image: url("http://i.stack.imgur.com/1Tzky.png");
-  font-size: 16px;
+  font-size: 20px;
   display:none;
   margin-top: 60px;
   margin-right: 20px;
@@ -198,27 +202,4 @@ display: none;
   body{
     position: relative;
     width: 100%;
-
-
-/*nav {
-  background: yellow;
-  display: inline-table;
-  
-}
-.menuitems{
-  display: none;
-}
-nav .menu:hover> ul li {
-display: block;
-}
-.menu{
- background: navy;
-}
-.menu:hover {
-  display: block;
-}
-.aboutme{
-  margin-top: 377px;
-  text-align: center;
-}
-*/
+  }

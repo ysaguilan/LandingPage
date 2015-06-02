@@ -12,9 +12,13 @@
 
   <title>My Landing Page</title>
 
+
+
 </head>
 <body>
+<div class="website">
 <a href="#menu" id="toggle"><span></span></a>
+
 
 <div id="menu">
   <ul>
@@ -24,18 +28,17 @@
   </ul>
 </div>
 
-
 <!--  -->
-
-<h1>My Landing Page</h1>
-
+<h1 class="title">My Landing Page</h1>
 <img class="image" src="images/testing.jpg"><!-- class="image" -->
 <h3 class="instruct">click picture to reveal about me</h3>
-<div class="aboutme"><!-- class="aboutme" -->
-  <div class="body">
+
+  <div class="aboutme"> 
+<section>
 <h2>About Me</h2>
 <p>This is my landing page This is my landing pageThis is my landing pageThis is my landing pageThis is my landing page
 This is my landing pageThis is my landing pageThis is my landing pageThis is my landing pageThis is my landing page</p>
+</section>
 </div>
 </div>
 <script>

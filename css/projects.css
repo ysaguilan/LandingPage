@@ -1,12 +1,9 @@
 body{
-background-image: url("http://i.stack.imgur.com/1Tzky.png");
-background-size: 1700px;
+background-image: url("http://www.pageresource.com/wallpapers/wallpaper/texture-metallic-black-silver-pattern_935158.jpg");
+background-size: 1900px 1800px;
+
 background-repeat: no-repeat;
 background-position: relative;
-color: gray;
-}
-h1 {
-  text-align: center;
 }
 
 /* Important styles */
@@ -64,7 +61,7 @@ h1 {
   color: #999;
   width: 200px;
   padding: 10px;
-  margin-left: 1199px;
+  margin-left: 1123px;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
@@ -101,9 +98,119 @@ li a:focus {
   background: #1ABC9C;
   color: #fff;
 }
+.website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 320px;
+  margin-right: 73px;
+  margin-left: 73px;
+  opacity: 0.9;
+}
+.title {
+  text-align: center;
+  opacity: 1.0;
+ margin-top: -165px;
+  color: ghostwhite;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+h5{
+  text-align: center;
+}
+.subtext{
+  color: whitesmoke;
+}
+.project1{
+  color: ghostwhite;
+  text-align: center;
+  border-bottom: solid;
+  border-width: 9px;
+}
+.game {
+  color: ghostwhite;
+  text-align: center;
+  border-bottom: solid;
+  border-width: 9px;
+}
+section {
+  padding-top: 40px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 9px;
+  border-color: whitesmoke;
+}
+/*enlarges images*/
+#largeImgPanel {
+  text-align: center;
+  visibility: hidden;
+  position: fixed;
+  z-index: 100;
+ top: 0; left: 0; width: 100%; height: 100%;
+ background-color: rgba(100,100,100, 0.5);
+}
+#largeImg{
+  height: 99%;
+  width: 48%;
+}
+img{
+  margin-left: 135px;
+  width: 299px;
 
-.item:hover { 
-  color: #00B295;
-  font-size: 20px;
-  text-align: left
+}
+.description{
+  padding-top: 25px;
+  color: ghostwhite;
+}
+@media (max-width: 767px) {
+  body{
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: 2903px 2587px;
+  }
+  #toggle {
+  display: block;
+  padding-left: 199px;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+  }
+  #menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin-left: 104px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0; 
+  transition: opacity .4s;
+}
+
+  img{
+  margin-left: 70px;
+  width: 200px;
+  margin-top: 30px;;
+  }
+ .website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+  }
+  #largeImg{
+  height: 49px;
+  width: 400px;
+}
+
+
+
+
 }

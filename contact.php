@@ -10,10 +10,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </head>
+
+
 <body>
+<div class="website">
 
 <a href="#menu" id="toggle"><span></span></a>
-
 <div id="menu">
   <ul>
     <li><a href="index.php">Home</a></li>
@@ -22,6 +24,8 @@
   </ul>
 </div>
 
+<h1>Contact</h1>
+<div class="content">
 <div class="email">
 <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
 Name:<br>
@@ -41,6 +45,7 @@ Example.com<br>
 Box 564, Disneyland<br>
 USA
 </address>
+</div>
 
 <script>
 //this is for collapsible menu
@@ -51,18 +56,18 @@ var theToggle = document.getElementById('toggle');
 
 // hasClass
 function hasClass(elem, className) {
-	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
 }
 // addClass
 function addClass(elem, className) {
     if (!hasClass(elem, className)) {
-    	elem.className += ' ' + className;
+        elem.className += ' ' + className;
     }
 }
 // removeClass
 function removeClass(elem, className) {
-	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
-	if (hasClass(elem, className)) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(elem, className)) {
         while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
             newClass = newClass.replace(' ' + className + ' ', ' ');
         }
@@ -71,7 +76,7 @@ function removeClass(elem, className) {
 }
 // toggleClass
 function toggleClass(elem, className) {
-	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
     if (hasClass(elem, className)) {
         while (newClass.indexOf(" " + className + " ") >= 0 ) {
             newClass = newClass.replace( " " + className + " " , " " );
@@ -86,6 +91,7 @@ theToggle.onclick = function() {
    toggleClass(this, 'on');
    return false;
 }
+
 </script>
 </body>
 </html>

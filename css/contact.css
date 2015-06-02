@@ -1,18 +1,26 @@
 body{
-background-image: url("http://i.stack.imgur.com/1Tzky.png");
+background-image: url("http://www.pageresource.com/wallpapers/wallpaper/texture-metallic-black-silver-pattern_935158.jpg");
 background-size: 1700px;
 background-repeat: no-repeat;
 background-position: relative;
-color: gray;
 }
 h1 {
   text-align: center;
+}
+.website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: ghostwhite;
+  margin-right: 73px;
+  margin-left: 73px;
+  opacity: 0.9;
 }
 
 /* Important styles */
 #toggle {
   display: block;
-  padding-left: 1199px;
+  padding-left: 1077px;
   width: 28px;
   height: 30px;
   margin: 30px auto 10px;
@@ -64,12 +72,12 @@ h1 {
   color: #999;
   width: 200px;
   padding: 10px;
-  margin-left: 1199px;
+  margin-left: 970px;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
   background: white;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 8px grey;
   /* just for this demo */
   opacity: 0; 
   transition: opacity .4s;
@@ -92,22 +100,59 @@ ul, li, li a {
 }
 li a {
   padding: 5px;
-  color: #888;
+  color: grey;
   text-decoration: none;
   transition: all .2s;
 }
 li a:hover,
 li a:focus {
-  background: #1ABC9C;
+  background: gray;
   color: #fff;
 }
 
-.item:hover { 
-  color: #00B295;
-  font-size: 20px;
-  text-align: left
-}
 .email {
   margin-top: 100px;
   margin-left: 80px;
+}
+@media (max-width: 767px) {
+  head{
+
+  }
+  body{
+    background-position: relative;
+    width: 100%;
+  }
+  #toggle {
+  display: block;
+  padding-left: 199px;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+  }
+  #menu {
+  position: relative;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin-left: 104px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0; 
+  transition: opacity .4s;
+}
+ .website{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
+
+
+
 }
